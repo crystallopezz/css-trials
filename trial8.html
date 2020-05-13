@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <style>
+        body{
+            margin: 0;
+        }
+        .background{
+            background-color: #cccccc;
+            height: 200px;
+            width: 900px;
+            margin: 0 auto;
+            padding: 15px 10px 15px 10px;
+        }
+        .inner{
+            display: inline-block;
+            height: 180px;
+            width: 180px;
+            border-width: 10px;
+            border-color: #555555;
+            border-style: double;
+        }
+        #circle-mid{
+            display: inline-block;
+            border-style: dotted;
+            height: 180px;
+            width: 180px;
+            border-width: 10px;
+            border-color: #555555;
+            border-radius: 50%;
+            margin: 0 150px;
+        }
+    </style>
+  </head>
+
+  <body>
+    <div class="background">
+        <div class="inner" id="sq-left"></div><!--
+        --><div class="inner" id="circle-mid"></div><!--
+        --><div class="inner" id="sq-right"></div>
+    </div>
+  </body>
+
+</html>
